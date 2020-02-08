@@ -1,0 +1,200 @@
+function setup() {
+  createCanvas(800, 800);
+}
+
+function printA(x,y){ 
+  line(x,y,x+20,y+50)
+  line(x,y,x-20,y+50)
+  line(x-10,y+25,x+10,y+25)
+}
+
+function printB(x,y){
+  line(x,y,x,y+50)
+  line(x,y,x+25,y)
+  line(x+25,y,x+25,y+50)
+  line(x,y+25,x+25,y+25)
+  line(x,y+50,x+25,y+50)
+}
+
+function printC(x,y){
+  line(x,y,x+25,y)
+  line(x,y,x,y+50)
+  line(x,y+50,x+25,y+50)
+}
+
+function printD(x,y){
+  line(x,y,x,y+50)
+  line(x,y,x+25,y)
+  line(x+25,y,x+25,y+50)
+  line(x,y+50,x+25,y+50)
+}
+
+function printE(x,y){
+  line(x,y,x+25,y)
+  line(x,y,x,y+50)
+  line(x,y+50,x+25,y+50)
+  line(x,y+25,x+25,y+25)
+}
+
+function printF(x,y){
+  line(x,y,x+25,y)
+  line(x,y,x,y+50)
+  line(x,y+25,x+25,y+25)
+}
+
+function printG(x,y){
+    line(x,y,x+25,y)
+  line(x,y,x,y+50)
+  line(x,y+50,x+25,y+50)
+  line(x,y+25,x+25,y+30)
+  line(x+25,y+30,x+25,y+50)
+}
+
+function printH(x,y){
+  line(x+25,y,x+25,y+50)
+  line(x,y,x,y+50)
+  line(x,y+25,x+25,y+25)
+}
+
+function printI(x,y){
+line (x,y,x,y+50)
+}
+
+function printJ(x,y){
+line(x,y,x+30,y)
+  line(x+15,y,x+15,y+50)
+  line(x+15,y+50,x+7,y+50)
+  }
+
+function printK(x,y){
+line(x,y,x,y+50)
+  line(x,y+30,x+20,y)
+  line(x,y+30,x+20,y+50)
+}
+
+function printL(x,y){
+  line (x,y,x,y+50)
+  line(x,y+50,x+30,y+50)
+  }
+
+function printM(x,y){
+line(x,y,x+10,y+50)
+  line(x,y,x-10,y+50)
+  line(x+10,y+50,x+20,y)
+  line(x+20,y,x+32,y+50)
+}
+
+function printN(x,y){
+line (x,y,x,y+50)
+  line(x,y,x+20,y+50)
+  line(x+20,y,x+20,y+50)
+  }
+
+function printO(x,y){
+ line(x,y,x,y+50)
+  line(x,y,x+25,y)
+  line(x+25,y,x+25,y+50)
+  line(x,y+50,x+25,y+50)
+}
+
+function printP(x,y){
+ line(x,y,x+25,y)
+  line(x,y,x,y+50)
+  line(x,y+25,x+25,y+25)
+  line(x+25,y,x+25,y+25)
+}
+
+function printQ(x,y){
+ line(x,y,x,y+50)
+  line(x,y,x+25,y)
+  line(x+25,y,x+25,y+50)
+  line(x,y+50,x+25,y+50)
+  line(x+15,y+15,x+30,y+50)
+}
+
+function printR(x,y){
+ line(x,y,x+25,y)
+  line(x,y,x,y+50)
+  line(x,y+25,x+25,y+25)
+  line(x+25,y,x+25,y+25)
+  line(x,y+25,x+25,y+50)
+}
+ 
+function printS(x,y){
+   line(x,y,x+25,y)
+  line(x,y,x,y+25)
+  line(x,y+25,x+25,y+25)
+  line(x+25,y+25,x+25,y+50)
+  line(x+25,y+50,x,y+50)
+}
+
+function printT(x,y){
+line(x,y,x+30,y)
+  line(x+15,y,x+15,y+50)
+}
+
+function printU(x,y){
+   line (x,y,x,y+50)
+  line(x,y+50,x+30,y+50)
+  line(x+30,y+50,x+30,y)
+}
+
+function printV(x,y){
+line(x,y,x+20,y+50)
+  line(x+20,y+50,x+40,y)
+}
+
+function printW(x,y){
+line(x,y,x+10,y+50)
+   line(x+10,y+50,x+20,y)
+  line(x+20,y,x+30,y+50)
+  line(x+30,y+50,x+40,y)
+  }
+
+function printX(x,y){
+  line(x,y,x+30,y+50)
+  line(x+30,y,x,y+50)
+}
+
+function printY(x,y){
+line(x,y,x+15,y+25)
+  line(x+15,y+25,x+30,y)
+  line(x+15,y+25,x+15,y+50)  
+}
+
+function printZ(x,y){
+line(x,y,x+25,y)
+  line(x+25,y,x,y+50)
+  line(x,y+50,x+25,y+50)
+  }
+
+function draw() {
+  background(220);
+  printA(50,100)
+  printB(100,100)
+  printC(150,100)
+  printD(200,100)
+  printE(250,100)
+  printF(300,100)
+  printG(350,100)
+  printH(400,100)
+  printI(450,100)
+  printJ(490,100)
+  printK(550,100)
+  printL(35,200)
+  printM(100,200)
+  printN(150,200)
+  printO(200,200)
+  printP(250,200)
+  printQ(300,200)
+  printR(350,200)
+  printS(400,200)
+  printT(450,200)
+  printU(500,200)
+  printV(550,200)
+  printW(35,300)
+  printX(100,300)
+  printY(150,300)
+  printZ(200,300)
+  
+  }
